@@ -1,14 +1,6 @@
 #  9. Среди натуральных чисел, которые были введены, найти наибольшее по сумме цифр.
 #  Вывести на экран это число и сумму его цифр.
 
-"""
-def sum_d(num_int):
-    sum = 0
-    if num_int == 0:
-        return sum
-"""
-
-
 q = int(input('Введите количество чисел -->'))
 max_sum_dig = 0
 
@@ -22,6 +14,5 @@ for i in range(q):
     if max_sum_dig < sum_d:
         max_sum_dig = sum_d
         max_n = num
-
 
 print(f'Число, наибольшее по сумме цифр = {max_n} ; сумма его цифр = {max_sum_dig} .')
